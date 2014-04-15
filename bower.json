@@ -11,10 +11,6 @@
   ],
   "license": "MIT",
   "homepage": "http://www.ezoui.com/",
-  "ignore":[
-  "**/.*",
-	"demo"
-  ],
   "dependencies": {
     "gk-loader": "../gk-loader"
   }
