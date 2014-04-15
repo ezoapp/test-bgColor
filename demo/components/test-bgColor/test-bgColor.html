@@ -1,0 +1,23 @@
+<element name="test-bgColor">
+
+  <template>
+    <div id='{{id}}' style='{{style}}'>
+      <content></content>
+    </div>
+  </template>
+
+  <script>
+  registerElement('test-bgColor',{
+    init: function(){
+      this.$ele.css({"background":"#f00"});  //元件產生時背景紅色
+    },
+    blue: function(){
+      this.$ele.css({"background":"#00f"});  //.blue()時背景藍色
+    },
+    yellow: function(){
+      this.$ele.css({"background":"#ff0"});  //.yellow()時背景黃色
+    }
+  });
+  </script>
+
+</element>
